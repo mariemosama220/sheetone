@@ -1,0 +1,14 @@
+
+//power of two
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    unsigned long long num;
+    cin>>num;
+     if(num && ((num & (num-1)) == 0)){
+        cout << "YES";
+    }else{
+        cout<<"NO";
+    }
+    return 0;
+}
